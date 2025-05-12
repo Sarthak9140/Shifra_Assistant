@@ -1,76 +1,91 @@
-🤖 Shifra_assistant
-Shifra is a browser-based voice-activated virtual assistant built using HTML, CSS, and JavaScript. It responds to user voice commands using the Web Speech API and can perform tasks like greeting you based on the time of day, opening popular websites, and responding conversationally to certain phrases.
+# 🤖 Shifra_assistant
 
-🚀 Features
-🎤 Voice Recognition using Web Speech API
+**Shifra** is a voice-controlled virtual assistant built using **HTML, CSS, and JavaScript**. It uses the Web Speech API to recognize spoken commands and respond via speech synthesis. Designed as a personal browser-based assistant, Shifra can greet you, open websites, tell the time or date, and much more.
 
-🗣️ Text-to-Speech (Speech Synthesis)
+---
 
-⏰ Greets based on time of the day
+## 🌐 Live Preview
 
-🔎 Opens common websites like YouTube, Google, Instagram
+> *(Optional: Add GitHub Pages or Netlify link here if hosted)*
 
-🧠 Handles casual conversations like "hello", "who are you", "thank you"
+---
 
-📅 Tells current time and date
+## 📌 Key Features
 
-🌐 Falls back to a Google search if command is not recognized
+- 🎤 **Voice Recognition**: Listens and processes your voice using Web Speech API.
+- 🗣️ **Speech Output**: Speaks back using Speech Synthesis API.
+- 🕐 **Greets Based on Time**: Good Morning / Afternoon / Evening / Night.
+- 🔗 **Quick Access to Sites**: Opens YouTube, Google, Instagram, WhatsApp, Calculator, etc.
+- 📅 **Tells Time and Date**: Responds with real-time data.
+- ❤️ **Conversational Responses**: Reacts to phrases like "I love you", "thank you", "who are you", etc.
+- 🔎 **Smart Fallback**: Searches Google when no command matches.
 
-📁 Project Structure
+---
 
+## 🧑‍💻 Tech Stack
+
+| Technology     | Purpose                             |
+|----------------|-------------------------------------|
+| `HTML5`        | Structure of the assistant UI       |
+| `CSS3`         | Styling the interface               |
+| `JavaScript`   | Voice logic, commands, interaction  |
+| `Web Speech API` | Voice recognition and synthesis  |
+
+---
+
+## 📂 Project Structure
 Shifra_assistant/
 │
-├── index.html         # Main HTML file
-├── style.css          # Styling for UI elements
-├── script.js          # JavaScript logic for voice and interaction
-├── mic.svg            # Microphone icon
-├── LCPT.gif           # Animation shown while listening
-├── image.png          # Logo image
-├── jarvis_pic.jpg     # Favicon image
-└── README.md          # Project documentation
-💡 How It Works
-User clicks the mic button.
+├── index.html # Main HTML file <br>
+├── style.css # Stylesheet for design <br>
+├── script.js # Main voice and logic file <br>
+├── mic.svg # Mic icon for button <br>
+├── LCPT.gif # Animated listening visual <br>
+├── image.png # Logo image <br>
+├── jarvis_pic.jpg # Favicon <br>
+└── README.md # Project documentation <br>
 
-Voice recognition starts.
+---
 
-Shifra listens and processes the spoken command.
+## ▶️ How to Run
 
-If matched, performs an action (like opening Google, YouTube, etc.).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sarthak9140/Shifra_Assistant.git
+   cd Shifra_Assistant
+Open index.html in any modern browser (recommended: Chrome).
 
-Otherwise, performs a Google search based on the spoken input.
+Click the mic button and start speaking your command.
 
-🧠 Supported Commands
-Command Phrase	Action
-"hello" / "hey"	Responds with a greeting
-"who are you"	Introduces itself
-"open youtube"	Opens YouTube
-"open google"	Opens Google
-"open instagram"	Opens Instagram
-"open calculator"	Attempts to open calculator app
-"open whatsapp"	Attempts to open WhatsApp
-"what's the time"	Tells the current time
-"what's the date"	Tells the current date
-"i love you"	Responds sweetly
-"thank you"	Responds politely
-Unrecognized command	Performs Google search
+⚠️ Make sure microphone permissions are granted in your browser.
 
-🌐 Browser Compatibility
-✅ Google Chrome (Recommended)
 
-⚠️ Firefox and Safari may have limited support for Web Speech API
+## 🗨️ Example Commands
 
-🛠️ Setup & Usage
-Clone this repository:
+| 🗣️ **Say this...**        | 🤖 **Shifra will...**          |
+|---------------------------|-------------------------------|
+| "Hello"                   | Greet you                     |
+| "Who are you?"            | Introduce itself              |
+| "Open YouTube"            | Launch YouTube                |
+| "Open Google"             | Launch Google                 |
+| "What's the time?"        | Tell the current time         |
+| "What's the date?"        | Tell the current date         |
+| "I love you"              | Respond sweetly               |
+| Anything else             | Search it on Google           |
 
-git clone https://github.com/yourusername/Shifra_assistant.git
-cd Shifra_assistant
-Open index.html in a browser (preferably Chrome).
 
-Click on the mic button to begin using the assistant.
+💡 Browser Compatibility
+✅ Google Chrome (Full support)
 
-⚠️ Make sure your microphone is enabled and permission is granted in the browser.
+⚠️ Firefox / Safari (Partial Web Speech API support)
 
-🙋‍♂️ Created By
+📸 UI Preview
+(Insert a screenshot or gif here if available)
+
+👨‍💻 Author
 Sarthak
-A passionate developer working on voice-assisted tech and web apps.
 
+GitHub: @Sarthak9140
+
+📜 License
+This project is licensed under the MIT License — feel free to use, modify, and distribute.
